@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TechInsight Blog</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h1>Tech<span>Insight</span></h1>
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h2>Exploring Technology Trends & Insights</h2>
+        <p>Stay informed with the latest in tech, programming, and digital innovation</p>
+        <a href="blog.html" class="btn">Read Articles</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="featured-posts">
+    <div class="container">
+      <h2 class="section-title">Featured Posts</h2>
+      <div class="posts-grid" id="featured-posts-container">
+        <!-- Posts will be loaded dynamically via JavaScript -->
+        <div class="post-card skeleton"></div>
+        <div class="post-card skeleton"></div>
+        <div class="post-card skeleton"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <div class="container">
+      <div class="newsletter-content">
+        <h2>Subscribe to Our Newsletter</h2>
+        <p>Get the latest articles and tech news directly in your inbox</p>
+        <form id="newsletter-form">
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Enter your email address" required>
+            <button type="submit" class="btn">Subscribe</button>
+          </div>
+          <p id="newsletter-message" class="form-message"></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <section class="categories">
+    <div class="container">
+      <h2 class="section-title">Browse Categories</h2>
+      <div class="categories-grid">
+        <a href="blog.html?category=web-development" class="category-card">
+          <div class="category-icon"><i class="fas fa-code"></i></div>
+          <h3>Web Development</h3>
+        </a>
+        <a href="blog.html?category=artificial-intelligence" class="category-card">
+          <div class="category-icon"><i class="fas fa-brain"></i></div>
+          <h3>Artificial Intelligence</h3>
+        </a>
+        <a href="blog.html?category=cybersecurity" class="category-card">
+          <div class="category-icon"><i class="fas fa-shield-alt"></i></div>
+          <h3>Cybersecurity</h3>
+        </a>
+        <a href="blog.html?category=mobile-apps" class="category-card">
+          <div class="category-icon"><i class="fas fa-mobile-alt"></i></div>
+          <h3>Mobile Apps</h3>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <h2>Tech<span>Insight</span></h2>
+          <p>Exploring the digital frontier</p>
+        </div>
+        <div class="footer-links">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-social">
+          <h3>Connect With Us</h3>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 TechInsight Blog. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/home.js"></script>
+</body>
+</html>
